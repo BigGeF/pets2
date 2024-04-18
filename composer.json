@@ -1,0 +1,12 @@
+{
+  "name": "328/pet",
+  "authors": [
+    {
+      "name": "HF",
+      "email": "Fan.Hao@student.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
