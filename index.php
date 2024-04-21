@@ -33,7 +33,7 @@ $f3->route('GET|POST /order', function($f3) {
             echo "Please supply a pet type";
         }else{
             $f3->set('SESSION.petType',$petType);
-            $f3->set("SESSION.color", $petColor);
+            $f3->set("SESSION.petColor", $petColor);
             $f3->reroute("summary");
         }
     }
